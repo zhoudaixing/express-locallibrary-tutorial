@@ -21,7 +21,7 @@ const app = express();
 import mongoose from 'mongoose';
 // const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
-const mongoDB = 'mongodb+srv://admin:V7kfW38ZLPrPBwme@cluster0.a8jtcji.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+// const mongoDB = ''
 
 main().catch((err) => console.log(err));
 async function main() {
